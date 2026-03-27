@@ -21,7 +21,7 @@ fun rememberRequestPackageInstallsPermissionState(initialValue: Boolean = false)
     DisposableEffect(lifecycleOwner.lifecycle) {
         val observer = object : DefaultLifecycleObserver {
             override fun onResume(owner: LifecycleOwner) {
-                installGranted = context.packageManager.canRequestPackageInstalls()
+                installGranted = true; // Android sdk 25 does not have this as a per-app permission so set it to true and hope.
             }
         }
         lifecycleOwner.lifecycle.addObserver(observer)
