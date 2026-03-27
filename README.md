@@ -7,6 +7,7 @@
 As Mihon no longer checks if it can install apps, there may be issues installing extensions if the Install Unknown Apps permission is not enabled in your settings. I am not sure how this will present as i have not tested it, I just want to read Yuri on my tablet. Goodluck :D
 
 also i dont know if there will be install check issues but ill fix that later i geuss
+oh yeah and to install this fork you will need to build it from this source code :> have fun 
 
 <div align="center">
 
