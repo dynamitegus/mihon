@@ -1,3 +1,13 @@
+> [!CAUTION]
+> This fork of Mihon has some edits that I made to get it to run on Android 7.1.1, namely it no longer checks to see if it able to install apps. Also you may notice a icon change....
+
+> [!IMPORTANT]
+> I am not a mihon maintainer, my sincerest apologies if you are, for what you are about to witness is uhhh idk bad or smth. Sorry lol
+### Removing the install check and it's consequences 
+As Mihon no longer checks if it can install apps, there may be issues installing extensions if the Install Unknown Apps permission is not enabled in your settings. I am not sure how this will present as i have not tested it, I just want to read Yuri on my tablet. Goodluck :D
+
+also i dont know if there will be install check issues but ill fix that later i geuss
+
 <div align="center">
 
 <a href="https://mihon.app">
@@ -21,7 +31,7 @@ Discover and read manga, webtoons, comics, and more – easier than ever on your
 [![Mihon Stable](https://img.shields.io/github/release/mihonapp/mihon.svg?maxAge=3600&label=Stable&labelColor=06599d&color=043b69)](https://mihon.app/download)
 [![Mihon Beta](https://img.shields.io/github/v/release/mihonapp/mihon-preview.svg?maxAge=3600&label=Beta&labelColor=2c2c47&color=1c1c39)](https://mihon.app/download)
 
-*Requires Android 8.0 or higher.*
+*Requires Android ~~8.0~~ 7.1 or higher.*
 
 ## Features
 
